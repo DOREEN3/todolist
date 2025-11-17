@@ -24,7 +24,7 @@ const App = () => {
     setTasks(tasks.filter((t)=>t.id !== id))
   }
   return (
-    <div style={styles.container} className='bg-secondary'>
+    <div style={styles.container} className='bg-info'>
       <h1 className='text-center text-success'>To-Do List</h1>
       <div style={styles.inputArea}>
       <input placeholder='Enter task..' 
